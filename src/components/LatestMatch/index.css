@@ -1,0 +1,77 @@
+.latest-matches-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #ffffff;
+  background-color: #0f172a;
+  padding: 25px;
+  border-radius: 15px;
+}
+.sub-container-1 {
+  padding-top: 30px;
+}
+.team-name {
+  font-size: 35px;
+  text-align: left;
+  font-weight: bold;
+}
+.match-date {
+  font-size: 25px;
+  font-weight: bold;
+}
+.match-details {
+  font-size: 16px;
+  text-align: start;
+}
+.team-details {
+  font-size: 16px;
+  text-align: end;
+}
+.team-logo {
+  width: 22%;
+  min-width: 150px;
+}
+.sub-headings {
+  font-size: 20px;
+  text-align: end;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .sub-container-1 {
+    padding-top: 0px;
+  }
+  .latest-matches-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .match-date {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .match-details {
+    font-size: 13px;
+    text-align: start;
+  }
+  .team-details {
+    font-size: 13px;
+    text-align: start;
+  }
+  .team-logo {
+    min-width: 150px;
+    margin: 5px;
+    align-self: center;
+  }
+  .sub-headings {
+    font-size: 16px;
+    text-align: start;
+  }
+  .team-name {
+    font-size: 25px;
+  }
+}
